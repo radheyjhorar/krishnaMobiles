@@ -1,0 +1,136 @@
+.app-logo {
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 8px;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: deepskyblue;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.nav-right {
+  text-align: right;
+  float: right;
+}
+
+.container {
+  margin: 20px 20px 100px 20px;
+  justify-content: center;
+  display: grid;
+}
+
+.input-box {
+  display: block;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid deepskyblue;
+  outline: none;
+  border-radius: 5px;
+  margin: 4px 0;
+}
+
+.invalid-input, .error-field {
+  margin-bottom: -20px;
+  color: red;
+  display: block;
+  font-size: small;
+}
+
+.select-box {
+  width: auto;
+  /* margin-top: 12px; */
+}
+
+.app-button {
+  margin: 25px 0;
+  padding: 10px;
+  background-color: deepskyblue;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #0000001f;
+  cursor: pointer;
+  color: #fff;
+}
+
+.app-button-two {
+  margin: 16px 0;
+  padding: 6px 16px;
+  background-color: deepskyblue;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #0000001f;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-box {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid deepskyblue;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: deepskyblue;
+  color: #fff;
+}
+
+table {
+  border: 1px solid black;
+}
+
+table th, td {
+  border: 1px solid black;
+  padding: 4px 30px;
+}
+
+.heading-button-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-20-0 {
+  padding: 20px 0;
+}
+
+.mutiple-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.table-input-box {
+  outline: none;
+  padding: 4px 0px;
+  border: 0;
+  padding-left: 4px;
+}
